@@ -1,0 +1,40 @@
+.header-form, .new-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+
+.todo-list {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.todo-list li {
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px;
+
+}
+
+.todo-list .list-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list {
+  display: flex;
+  justify-content: left;
+}
+
+.list-info h2 {
+  font-size: 2rem;
+}
